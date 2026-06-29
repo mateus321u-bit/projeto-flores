@@ -17,6 +17,7 @@
 body{
       text-align: justify;
       font-family: var(--font2);
+      
 }
 
 :root{
@@ -29,7 +30,7 @@ body{
     --cor7: #E8E2D3;
     --cor8: #ffffff;
     --cor9: #2F2F2F;
-    --cor10:rgba(128, 128, 128, 0.586);
+    --cor10:rgba(128, 128, 128, 0.352);
 
     --font1:'Playfair Display', serif;
     --font2:'Poppins', sans-serif;
@@ -98,12 +99,25 @@ h1{
     padding: 50px 0px 40px 0px;
     background-color: var(--cor10);
 }
+h2{
+    padding: 3%;
+}
 
 
+span{
+    text-align: center;
+}
 
+p{
+    padding: 1%;
+}
 
-
-
+#cen{
+    text-align: center;
+    margin:40px 0px 20px 0px;
+    font-family: var(--font2);
+    font-size: 1.1em;
+}
 
 
  
