@@ -54,6 +54,7 @@ header > nav{
      margin: 0px;
 }
 
+
 .topo{
      font-family: var(--font1);
 }
@@ -61,7 +62,21 @@ header > nav{
 a{
     margin: 10px;
     text-decoration: none;
-    color: white;
+    color:var(--cor8); 
+}
+
+nav > a{
+     font-family: var(--font1);
+     font-size: 1.1em;
+     color: rgba(255, 255, 255, 0.781); 
+
+}
+
+
+a:hover{
+    transition: .3s;
+    color: var(--cor4);
+    
 }
 
 #paralax{
@@ -145,8 +160,7 @@ background-color: var(--cor4);
 .direita {
     display: flex;
     align-items: center;
-    gap: 30px;
-    
+    overflow-wrap:break-word ; 
 }
 
 #ig {
@@ -155,18 +169,20 @@ background-color: var(--cor4);
     padding-top: 50px;
     border-radius: 25%; 
     object-fit: cover; 
+    padding: 2%;
 }
 
-.textos-direita {
-    width: 60%; 
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+#pequeno{
+    overflow-wrap: break-word;
+    width: 50%;
 }
 
 .font {
-    font-family: var(--font2);
-    font-size: 1.3em;
+    font-family: var(--font4);
+    font-size: 1.1em;
+    overflow-wrap: break-word;
+    padding: 3%;
+    
    
 }
 
@@ -191,3 +207,4 @@ footer{
    text-align: center;
    font-weight: bold;
 }
+

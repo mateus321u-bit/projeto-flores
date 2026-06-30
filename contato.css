@@ -64,7 +64,30 @@ header > nav{
 a{
     margin: 10px;
     text-decoration: none;
-    color: white;
+   color: var(--cor8);
+}
+
+
+nav > a{
+     font-family: var(--font1);
+     font-size: 1.1em;
+     color: rgba(255, 255, 255, 0.781); 
+}
+
+
+ a:hover{
+    transition: .3s;
+    color: var(--cor4); 
+}
+
+span a{
+   color: black;
+}
+ 
+span a:hover {
+    color: black;
+    text-decoration: underline;
+    
 }
 
 #cent{
@@ -101,7 +124,14 @@ h1{
 }
 h2{
     padding: 3%;
+    font-size: 2em;
+    font-family: var(--font4);
 }
+
+h3{
+    padding-top: 5%;
+}
+
 
 
 span{
@@ -110,7 +140,10 @@ span{
 
 p{
     padding: 1%;
+    font-family: var(--font2);
 }
+
+
 
 #cen{
     text-align: center;
