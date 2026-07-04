@@ -69,7 +69,7 @@ a{
 
 
 nav > a{
-     font-family: var(--font1);
+    
      font-size: 1.1em;
      color: rgba(255, 255, 255, 0.781); 
 }

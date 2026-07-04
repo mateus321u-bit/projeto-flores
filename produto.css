@@ -67,7 +67,7 @@ a{
 
 
 nav > a{
-     font-family: var(--font1);
+    
      font-size: 1.1em;
      color: rgba(255, 255, 255, 0.781); 
 }
@@ -86,9 +86,9 @@ a:hover{
 
 
 #paralax{
-   height: 500px;
-    background-image: url(img/paralax2.png);
-    background-position: top right;
+   height: 525px;
+    background-image: url(img/test03.png);
+    background-position: left center;
      background-size: cover ;
      background-attachment: fixed;
    box-shadow:inset 0 13px 13px -8px rgba(0, 0, 0, 0.5),
