@@ -89,9 +89,9 @@ a:hover{
 
 
 #paralax{
-   height: 525px;
-    background-image: url(img/test03.png);
-    background-position: left center;
+   height: 700px;
+    background-image: url(img/paralax02.png);
+    background-position: right center;
      background-size: cover ;
      background-attachment: fixed;
    box-shadow:inset 0 13px 13px -8px rgba(0, 0, 0, 0.5),
@@ -99,12 +99,12 @@ a:hover{
 }
 
 #cent{
-    font-size: 2.7em;
+     font-size: 2.7em;
     font-family:var(--font4) ;
     color: var(--cor8);
     padding: 130px 0px 0px 70px;
     margin-bottom: -10px;
-    text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.284);
+    text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.351);
 }
 
 #frase{
@@ -130,6 +130,8 @@ h1{
     padding: 15px 0px 0px 0px;
 }
 
+
+
 .conteiner{
     display: flex; 
     gap: 75px;
@@ -148,12 +150,13 @@ h1{
     margin: auto;
    object-fit: cover;
   object-position: top left;
+  padding-right: 9px;
   
 }
 
 .caixa{
-    height: 416px;
-    width: 260px;
+    height: 410px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 0 0  10px rgba(0, 0, 0, 0.49); 
     text-align: center;
@@ -165,9 +168,10 @@ p{
     padding: 5px;
 }
 
-h2{
+
+section article h2{
     font-family: var(--font1);
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .preco{
