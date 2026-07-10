@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@800;900&display=swap');
 
 
 
@@ -17,6 +18,7 @@
 body{
       text-align: justify;
       font-family: var(--font2);
+      background-color: var(--cor10);
       
 }
 
@@ -30,16 +32,17 @@ body{
     --cor7: #E8E2D3;
     --cor8: #ffffff;
     --cor9: #2F2F2F;
-    --cor10:rgba(128, 128, 128, 0.352);
+   --cor10:rgba(204, 204, 204, 0.196);
 
     --font1:'Playfair Display', serif;
     --font2:'Poppins', sans-serif;
     --font3:'Bebas Neue', sans-serif;
     --font4:"Noto Serif Oriya", serif;
+    --font5: 'Cormorant Garamond', serif;
 }
 
 header{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
    text-align: center;
    color: white;
 }
@@ -75,18 +78,20 @@ nav > a{
 }
 
 
- a:hover{
+.trasforme:hover {
     transition: .3s;
     color: var(--cor4); 
+    text-decoration: none;
 }
 
-span a{
-   color: black;
+
+.caixa a{
+  color: var(--cor8);
 }
  
-span a:hover {
-    color: black;
-    text-decoration: underline;
+ a:hover {
+    color: var(--cor3);
+    text-decoration: none;
     
 }
 
@@ -118,10 +123,66 @@ img{
 
 h1{
     text-align: center;
-    font-size: 65px;
     padding: 50px 0px 40px 0px;
-    background-color: var(--cor10);
+    font-family: var(--font5);
+    text-align: center;  
+    font-family: "Cormorant Garamond", serif;
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
 }
+
+
+.conteiner{
+    display:flex; 
+    gap: 30px;
+    justify-content: center;
+   margin-bottom: 50px;
+   margin-top: 75px;
+   flex-wrap: wrap;
+   
+}
+
+.rede{
+   width: 30%;
+    height: 30%;
+  padding-right: 9px;
+  display: block;
+  margin: auto;
+  
+}
+
+.caixa{
+    
+    height: 270px;
+    width: 270px;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.152); 
+    text-align: center;
+    background-color: var(--cor8);
+    border-radius: 10px;
+   
+}
+
+.frase{
+  
+    font-family: var(--font2);
+     font-weight: bolder;
+    font-size: 1.2em;
+}
+
+p{
+    margin: 10px;
+}
+
+.botao{
+    background-color: var(--cor2);
+    margin-top: 20px;
+   border-radius: 10px;
+   height: 30px 30px;
+}
+
+
 h2{
     padding: 3%;
     font-size: 2em;
@@ -130,12 +191,17 @@ h2{
 
 h3{
     padding-top: 5%;
+    text-align: center;
+    font-family: var(--font5);
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-
-
-span{
+div{
     text-align: center;
+    font-family: var(--font4);
+    font-size: 20px;
 }
 
 p{
@@ -155,7 +221,7 @@ p{
 
  
 footer{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     color: var(--cor8);
     padding: 7px;
    text-align: center;

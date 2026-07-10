@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@800;900&display=swap');
 
 
 
@@ -35,10 +36,11 @@ body{
     --font2:'Poppins', sans-serif;
     --font3:'Bebas Neue', sans-serif;
     --font4:"Noto Serif Oriya", serif;
+    --font5: 'Cormorant Garamond', serif;
 }
 
 header{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
    text-align: center;
    color: white;
 }
@@ -125,11 +127,14 @@ img{
 }
 
 h1{
+    font-family: var(--font5);
     text-align: center;
-    font-size: 65px;
-    padding: 15px 0px 0px 0px;
+    padding: 20px 0px 25px 0px;   
+     font-family: "Cormorant Garamond", serif;
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
-
 
 
 .conteiner{
@@ -162,6 +167,18 @@ h1{
     text-align: center;
     background-color: var(--cor8);
    
+}
+
+@media (max-width: 600px){
+
+    .conteiner{
+        justify-content: space-evenly;
+    }
+
+    .caixa{
+        width: 45%;
+    }
+
 }
 
 p{
@@ -199,7 +216,7 @@ section article h2{
 }
  
 footer{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     color: var(--cor8);
     padding: 7px;
    text-align: center;
