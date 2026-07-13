@@ -1,5 +1,4 @@
-@charset "utf8";
-
+@charset "UTF8";
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -8,21 +7,20 @@
 
 
 
-*{
+
+* {
     margin: 0px;
     padding: 0px;
-    
-   
+
 }
 
-body{
-      text-align: justify;
-      font-family: var(--font2);
-      background-color: var(--cor10);
-      
+body {
+    text-align: justify;
+    /* font-family: var(--font2); */
+    background-color: var(--cor10);
 }
 
-:root{
+:root {
     --cor1: #1F4D2B;
     --cor2: #2E6B34;
     --cor3: #4A8A3F;
@@ -32,80 +30,85 @@ body{
     --cor7: #E8E2D3;
     --cor8: #ffffff;
     --cor9: #2F2F2F;
-   --cor10:rgba(204, 204, 204, 0.196);
+    --cor10: rgba(166, 166, 166, 0.196);
 
-    --font1:'Playfair Display', serif;
-    --font2:'Poppins', sans-serif;
-    --font3:'Bebas Neue', sans-serif;
-    --font4:"Noto Serif Oriya", serif;
+    --font1: 'Playfair Display', serif;
+    --font2: 'Poppins', sans-serif;
+    --font3: 'Bebas Neue', sans-serif;
+    --font4: "Noto Serif Oriya", serif;
     --font5: 'Cormorant Garamond', serif;
 }
 
-header{
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--cor1);
-   text-align: center;
-   color: white;
+    color: var(--cor8);
+    padding: 1rem;
+    height: 10vh;
+
 }
 
-header > h1{
-    padding: 30px 0px 15px 0px;
-    font-size: 2em;
-}
-header > nav{
-    text-align: right;
-    padding-bottom: 10px; 
+
+header img {
+    width: 60%;
 }
 
-#logo{
-     margin: 0px;
+.barradnav {
+    position: relative;
+    right: 10%;
+    font-family: var(--font2);
+    font-size: 1rem;
 }
 
-.topo{
-     font-family: var(--font1);
+.topo {
+    font-family: var(--font1);
 }
 
-a{
+a {
     margin: 10px;
     text-decoration: none;
-   color: var(--cor8);
+    color: var(--cor8);
+}
+
+a:hover {
+    transition: .3s;
+    color: var(--cor4);
+
 }
 
 
-nav > a{
-    
-     font-size: 1.1em;
-     color: rgba(255, 255, 255, 0.781); 
-}
 
 
 .trasforme:hover {
     transition: .3s;
-    color: var(--cor4); 
+    color: var(--cor4);
     text-decoration: none;
 }
 
 
-.caixa a{
-  color: var(--cor8);
+.caixa a {
+    color: var(--cor8);
 }
- 
- a:hover {
+
+a:hover {
     color: var(--cor3);
     text-decoration: none;
-    
+
 }
 
-#cent{
+#cent {
     font-size: 2.7em;
-    font-family:var(--font4) ;
+    font-family: var(--font4);
     color: var(--cor3);
     padding: 130px 0px 0px 70px;
     margin-bottom: -10px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.642);
 }
 
-#eco{
-   
+#eco {
+
     color: var(--cor3);
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px 0px 0px 175px;
@@ -115,81 +118,81 @@ nav > a{
 
 }
 
-img{
-   display: block;
-  padding: 15px 0px 10px 10px;
+img {
+    display: block;
+    padding: 15px 0px 10px 10px;
 }
- 
 
-h1{
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 50px 0px 40px 0px;
-    font-family: var(--font5);
-    text-align: center;  
-    font-family: "Cormorant Garamond", serif;
-    font-size: 70px;
+    padding: 20px 0px 25px 0px;
+    font-size: 5vw;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    
+    color: #1F4D2B;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+
 }
 
 
-.conteiner{
-    display:flex; 
+.conteiner {
+    display: flex;
     gap: 30px;
     justify-content: center;
-   margin-bottom: 50px;
-   margin-top: 75px;
-   flex-wrap: wrap;
-   
+    margin-bottom: 50px;
+    margin-top: 75px;
+    flex-wrap: wrap;
+
 }
 
-.rede{
-   width: 30%;
+.rede {
+    width: 30%;
     height: 30%;
-  padding-right: 9px;
-  display: block;
-  margin: auto;
-  
+    padding-right: 9px;
+    display: block;
+    margin: auto;
+
 }
 
-.caixa{
-    
+.caixa {
+
     height: 270px;
     width: 270px;
-    box-shadow: 0 0  10px rgba(0, 0, 0, 0.152); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.152);
     text-align: center;
     background-color: var(--cor8);
     border-radius: 10px;
-   
+
 }
 
-.frase{
-  
+.frase {
+
     font-family: var(--font2);
-     font-weight: bolder;
+    font-weight: bolder;
     font-size: 1.2em;
 }
 
-p{
+p {
     margin: 10px;
 }
 
-.botao{
+.botao {
     background-color: var(--cor2);
     margin-top: 20px;
-   border-radius: 10px;
-   height: 30px 30px;
+    border-radius: 10px;
+    height: 30px 30px;
 }
 
 
-h2{
+h2 {
     padding: 3%;
     font-size: 2em;
     font-family: var(--font4);
 }
 
-h3{
+h3 {
     padding-top: 5%;
     text-align: center;
     font-family: var(--font5);
@@ -197,33 +200,41 @@ h3{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-
-div{
+ 
+#atendimento{
     text-align: center;
-    font-family: var(--font4);
-    font-size: 20px;
+    font-size: var(--font4);
+    font-size: 120%;
 }
 
-p{
+#atendimento {
+    background-color: var(--cor2);
+    color: var(--cor8);
+    padding: 10px;
+    margin: 100px;
+    font-weight: bolder;
+}
+
+p {
     padding: 1%;
     font-family: var(--font2);
 }
 
 
 
-#cen{
+#cen {
     text-align: center;
-    margin:40px 0px 20px 0px;
+    margin: 40px 0px 20px 0px;
     font-family: var(--font2);
     font-size: 1.1em;
 }
 
 
- 
-footer{
+
+footer {
     background-color: var(--cor1);
     color: var(--cor8);
     padding: 7px;
-   text-align: center;
-   font-weight: bold;
+    text-align: center;
+    font-weight: bold;
 }
