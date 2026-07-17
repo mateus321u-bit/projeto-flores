@@ -129,51 +129,44 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 20px 0px 25px 0px;
-    font-size: 70px;
+    font-size: 45px;
     letter-spacing: 2px;
     color: #1F4D2B;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+     transition: width .3s, height .3s;
 
 }
 
+   
+
+    .conteiner {
+
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+         transition: width .3s, height .3s;
+    }
 
 
-.infor {
-    width: 350px;
-    height: 528px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.481);
-    border: 1px solid black;
-    background-color: var(--cor8);
-    overflow: hidden;
-    
-    
-}
+    .caixa {
+        width: calc(50% - 10px);
+       display: block;
+        margin: auto;
+        background-color: var(--cor8);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .img-trabalho {
+        width: 60%;
+        height: 200px;
+        margin: auto;
+        object-fit: cover;
+    }
 
 
-
-.infor>img {
-    width: 80%;
-    height: 400px;
-    padding-right: 3%;
-    margin: 10px;
-
-
-}
-
-.conteiner {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    margin-bottom: 80px;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    
-}
 
 #cor {
     background-color: var(--cor4);
@@ -245,12 +238,7 @@ p {
     font-size: 1.1em;
 }
 
-.trabalho {
-    width: 20%;
-    margin: auto;
-    border-radius: 20px;
-  object-fit: cover;
-}
+
 
 
 footer {
