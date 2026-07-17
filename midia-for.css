@@ -16,27 +16,9 @@ Telas grandes:      1400px ou mais
 */
 
 
-:root {
-    --cor1: #1F4D2B;
-    --cor2: #2E6B34;
-    --cor3: #4A8A3F;
-    --cor4: #8FBF6A;
-    --cor5: #C7D9B3;
-    --cor6: #F4F1E8;
-    --cor7: #E8E2D3;
-    --cor8: #ffffff;
-    --cor9: #2F2F2F;
-    --cor10: rgba(166, 166, 166, 0.196);
-
-    --font1: 'Playfair Display', serif;
-    --font2: 'Poppins', sans-serif;
-    --font3: 'Bebas Neue', sans-serif;
-    --font4: "Noto Serif Oriya", serif;
-    --font5: 'Cormorant Garamond', serif;
-}
 
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) { /* computador */
     h1 {
         font-size: 60px;
         transition: width .3s, height .3s;
