@@ -130,6 +130,7 @@ h1 {
     letter-spacing: 2px;
     color: #1F4D2B;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    
 
 }
 
@@ -140,9 +141,9 @@ h1 {
 
 .conteiner {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
-    margin-top: 75px;
+    margin-top: 30px;
     padding: 3px;
     transition: width .3s, height .3s;
 
@@ -164,19 +165,30 @@ h1 {
 }
 
 .caixa {
-    height: 300px;
-    width: 30vw;
+   margin: 5px;
+    height: 305px;
+   width: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
     text-align: center;
     background-color: var(--cor8);
     overflow: hidden;
+    margin-top: 50px;
 
 }
 
 
 p {
     padding: 3px;
+    
+}
+
+.conserto{
+    padding-top: 41px;
+}
+
+h3{
+    padding-top: 25PX;
 }
 
 

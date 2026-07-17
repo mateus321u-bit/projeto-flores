@@ -15,82 +15,95 @@ Telas grandes:      1400px ou mais
 */
 
 
-    @media screen and (min-width:768px) and (max-width:991px) {
-       
+@media screen and (min-width:768px) and (max-width:991px) {
+    /* TABLET*/
 
-        .conteiner {
-            display: flex;
-            gap: 75px;
-            justify-content: center;
-            margin-bottom: 50px;
-            margin-top: 75px;
-            flex-wrap: wrap;
-            transition: width .3s, height .3s;
-        }
 
-        .caixa {
-            height: 415px;
-            width: 250px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
-            text-align: center;
-            background-color: var(--cor8);
-            overflow: hidden;
-        }
-
-        .produto {
-            width: 200px;
-            height: 260px;
-            border-radius: 10%;
-            display: flex;
-            margin: auto;
-            object-fit: cover;
-            object-position: top left;
-            padding-right: 9px;
-        }
-
-        h3 {
-            padding-top: 19px;
-        }
+    .conteiner {
+        display: flex;
+        gap: 75px;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 75px;
+        flex-wrap: wrap;
+        transition: width .3s, height .3s;
     }
 
-
-
-    @media screen and (min-width:992px) {
-       
-
-        .conteiner {
-            display: flex;
-            gap: 75px;
-            justify-content: center;
-            margin-bottom: 50px;
-            margin-top: 75px;
-            flex-wrap: wrap;
-            transition: width .3s, height .3s;
-        }
-
-        .caixa {
-            height: 415px;
-            width: 250px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
-            text-align: center;
-            background-color: var(--cor8);
-            overflow: hidden;
-        }
-
-        .produto {
-            width: 200px;
-            height: 260px;
-            border-radius: 10%;
-            display: flex;
-            margin: auto;
-            object-fit: cover;
-            object-position: top left;
-            padding-right: 9px;
-        }
-
-        h3 {
-            margin-top: 19px;
-        }
+    .caixa {
+        height: 415px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
+        text-align: center;
+        background-color: var(--cor8);
+        overflow: hidden;
     }
+
+    .produto {
+        width: 200px;
+        height: 260px;
+        border-radius: 10%;
+        display: flex;
+        margin: auto;
+        object-fit: cover;
+        object-position: top left;
+        padding-right: 9px;
+    }
+
+    h3 {
+        padding-top: 19px;
+    }
+
+    .conserto {
+        padding-top: 15px;
+    }
+}
+
+
+
+@media screen and (min-width:992px) { /* computador */
+
+    .conteiner {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        gap: 75px;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 75px;
+        flex-wrap: wrap;
+        transition: width .3s, height .3s;
+        
+        
+    }
+
+    .caixa {
+        height: 415px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
+        text-align: center;
+        background-color: var(--cor8);
+        overflow: hidden;
+        margin-left: 20px;
+       
+    }
+
+    .produto {
+        width: 200px;
+        height: 260px;
+        border-radius: 10%;
+        display: flex;
+        margin: auto;
+        object-fit: cover;
+        object-position: top left;
+        padding-right: 9px;
+    }
+
+    h3 {
+        margin-top: 19px;
+    }
+
+    .conserto{
+        padding-top: 15px;
+    }
+}

@@ -133,38 +133,40 @@ h1 {
     letter-spacing: 2px;
     color: #1F4D2B;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
-     transition: width .3s, height .3s;
+    transition: width .3s, height .3s;
 
 }
 
-   
-
-    .conteiner {
-
-        display: flex;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
-         transition: width .3s, height .3s;
-    }
 
 
-    .caixa {
-        width: calc(50% - 10px);
-       display: block;
-        margin: auto;
-        background-color: var(--cor8);
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
-        border-radius: 10px;
-        margin-top: 10px;
-    }
+.conteiner {
 
-    .img-trabalho {
-        width: 60%;
-        height: 200px;
-        margin: auto;
-        object-fit: cover;
-    }
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: width .3s, height .3s;
+}
+
+
+.caixa {
+    width: calc(50% - 10px);
+    display: block;
+    margin: auto;
+    background-color: var(--cor8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid black; 
+    margin-top: 30px;
+}
+
+.img-trabalho {
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+}
 
 
 
