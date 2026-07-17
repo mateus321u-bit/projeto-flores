@@ -1,0 +1,26 @@
+@charset "UTF8";
+
+/* Todas as mídias */
+
+/* Breakpoints responsivos
+
+Celulares pequenos: até 575px
+Celulares:          576px – 767px
+Tablets:            768px – 991px
+Notebooks:          992px – 1199px
+Desktops:           1200px – 1399px
+Telas grandes:      1400px ou mais
+
+*/
+
+@media screen and (max-width:767px) {
+    h1 {
+        font-size: 70px;
+        background-color: black;
+    }
+
+    .infor {
+        width: 250px;
+        height: 540px;
+    }
+}
