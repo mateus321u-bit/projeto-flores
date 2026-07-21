@@ -127,3 +127,8 @@ Telas grandes:      1400px ou mais
 
     }
 }
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    /*tablet*/
+
+}

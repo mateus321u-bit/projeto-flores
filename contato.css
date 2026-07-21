@@ -42,11 +42,11 @@ body {
 header {
     display: flex;
     align-items: center;
-   flex-direction: column;
+    flex-direction: column;
     background-color: var(--cor1);
     color: var(--cor8);
-   
-  
+
+
 
 }
 
@@ -61,20 +61,20 @@ header img {
     right: 10%;
     font-family: var(--font2);
     font-size: 1rem;
-    
-   
+
+
 }
 
 a {
-   
+
     text-align: center;
 
-    
+
     text-decoration: none;
     color: var(--cor8);
 }
 
-div > a{
+div>a {
     margin: 10px;
 }
 
@@ -86,7 +86,7 @@ a:hover {
 
 img {
     display: block;
-   
+
 
 }
 
@@ -131,7 +131,7 @@ a:hover {
 
 img {
     display: block;
-    
+
 }
 
 
@@ -140,7 +140,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 20px 0px 25px 0px;
-     font-size: 45px;
+    font-size: 45px;
     letter-spacing: 2px;
     color: #1F4D2B;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
@@ -212,7 +212,7 @@ h3 {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
- 
+
 
 
 #atendimento {
@@ -252,9 +252,9 @@ footer {
     padding: 7px;
     text-align: center;
     font-weight: bold;
-   
+
 }
 
-footer > a{
+footer>a {
     margin: 10px;
 }
