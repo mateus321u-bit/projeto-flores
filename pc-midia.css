@@ -63,6 +63,40 @@ Telas grandes:      1400px ou mais
 
 @media screen and (min-width:992px) { /* computador */
 
+     header {
+        display: flex;
+        align-items: center;
+            flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--cor1);
+        color: var(--cor8);
+        padding: 1rem;
+        height: 10vh;
+       
+
+    }
+
+    .barradnav {
+         display: flex;
+        flex-direction: row;
+        width: auto;
+        
+        right: 10%;
+        font-family: var(--font2);
+        font-size: 1rem;
+       
+        
+
+
+    }
+
+    a{
+        padding: 0;
+    }
+
+    
+
     .conteiner {
         display: grid;
         grid-template-columns: repeat(4, 2fr);

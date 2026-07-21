@@ -42,11 +42,11 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   flex-direction: column;
     background-color: var(--cor1);
     color: var(--cor8);
-    padding: 1rem;
-    height: 10vh;
+   
+  
 
 }
 
@@ -56,20 +56,26 @@ header img {
 }
 
 .barradnav {
-    position: relative;
+    display: flex;
+    flex-direction: row;
     right: 10%;
     font-family: var(--font2);
     font-size: 1rem;
-}
-
-.topo {
-    font-family: var(--font1);
+    
+   
 }
 
 a {
-    margin: 10px;
+   
+    text-align: center;
+
+    
     text-decoration: none;
     color: var(--cor8);
+}
+
+div > a{
+    margin: 10px;
 }
 
 a:hover {
@@ -78,6 +84,11 @@ a:hover {
 
 }
 
+img {
+    display: block;
+   
+
+}
 
 
 
@@ -120,7 +131,7 @@ a:hover {
 
 img {
     display: block;
-    padding: 15px 0px 10px 10px;
+    
 }
 
 
@@ -153,6 +164,7 @@ h1 {
     padding-right: 9px;
     display: block;
     margin: auto;
+    padding: 15px 0px 10px 10px;
 
 }
 
@@ -240,4 +252,9 @@ footer {
     padding: 7px;
     text-align: center;
     font-weight: bold;
+   
+}
+
+footer > a{
+    margin: 10px;
 }
