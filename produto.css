@@ -130,7 +130,6 @@ a:hover {
 
 img {
     display: block;
-    
 
 }
 
@@ -166,9 +165,9 @@ h1 {
 }
 
 .produto {
-    width: 75px;
-    height: 126px;
-    border-radius: 15px ;
+    width: 130px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px ;
     display: flex;
     margin: auto;
     object-fit: cover;
@@ -180,7 +179,7 @@ h1 {
 
 .caixa {
     margin: 5px;
-    height: 305px;
+    height:auto;
     width: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
