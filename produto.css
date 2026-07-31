@@ -130,6 +130,7 @@ a:hover {
 
 img {
     display: block;
+    
 
 }
 
@@ -167,7 +168,7 @@ h1 {
 .produto {
     width: 75px;
     height: 126px;
-    border-radius: 10%;
+    border-radius: 15px ;
     display: flex;
     margin: auto;
     object-fit: cover;

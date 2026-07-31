@@ -57,6 +57,10 @@ Telas grandes:      1400px ou mais
     .conserto {
         padding-top: 15px;
     }
+
+    .pequeno{
+        font-size: 10%;
+    }
 }
 
 
