@@ -61,11 +61,8 @@ header img {
     right: 10%;
     font-family: var(--font2);
     font-size: 1rem;
-
-
+    margin-top: 4px;
 }
-
-
 
 
 .topo {
@@ -73,12 +70,9 @@ header img {
 }
 
 a {
-
-    text-align: center;
-
-
     text-decoration: none;
     color: var(--cor8);
+ 
 }
 
 div>a {
@@ -90,6 +84,7 @@ a:hover {
     color: var(--cor4);
 
 }
+
 
 .caixa a:hover {
     color: var(--cor4);
@@ -113,7 +108,7 @@ a:hover {
     color: var(--cor8);
     padding: 130px 0px 0px 70px;
     margin-bottom: -10px;
-    text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.351);
+    text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.856);
 }
 
 #frase {
@@ -123,7 +118,7 @@ a:hover {
     padding: 0px 0px 0px 90px;
     font-weight: bolder;
     font-size: 1em;
-    text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.433);
+  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.904);
     text-align: center;
     max-width: 700px;
 }
@@ -141,22 +136,14 @@ h1 {
     font-size: 45px;
     letter-spacing: 2px;
     color: #1F4D2B;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+   
 
 
 }
-
-
-
-
-
-
 .conteiner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
-    margin-top: 30px;
-    padding: 3px;
     transition: width .3s, height .3s;
 
 
@@ -165,21 +152,20 @@ h1 {
 }
 
 .produto {
-    width: 130px;
-    height: auto;
-    border-radius: 20px 20px 20px 20px ;
+    width: 85%;
+    height: 70%;
+    border-radius:10px ;
     display: flex;
     margin: auto;
     object-fit: cover;
     object-position: top left;
-    padding-right: 9px;
-    padding: 15px 0px 10px 10px;
+    
 
 }
 
 .caixa {
     margin: 5px;
-    height:auto;
+    height:95%;
     width: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.49);
@@ -233,7 +219,7 @@ section article h2 {
 
 #cen {
     text-align: center;
-    margin: 40px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
     font-family: var(--font2);
     font-size: 1.1em;
 }

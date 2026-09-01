@@ -85,11 +85,6 @@ Telas grandes:      1400px ou mais
         max-width: 700px;
     }
 
-
-
-
-
-
     h1 {
         font-size: 60px;
         transition: width .3s, height .3s;
@@ -119,13 +114,26 @@ Telas grandes:      1400px ou mais
     }
 
     .img-trabalho {
-        width: 90%;
-        height: 75%;
+        width:100%;
+        height: auto;
         margin: auto;
-        margin-left: 8px;
         object-fit: cover;
 
     }
+
+    .direita{
+        display: grid;
+       grid-auto-flow: column;
+    }
+
+    #ig {
+    width: 700px;
+    object-fit: cover;
+    padding: 2%;
+    height: 500px;
+    margin: auto;
+    border-radius: 4%;
+}
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
