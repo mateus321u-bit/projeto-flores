@@ -31,8 +31,21 @@ Telas grandes:      1400px ou mais
         color: var(--cor8);
         padding: 1rem;
         height: 10vh;
+        width: 98vw;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
 
 
+    }
+
+
+    body {
+        text-align: justify;
+        background-color: var(--cor10);
+        margin: 0;
+        padding-top: 80px;
     }
 
     .barradnav {
@@ -114,26 +127,26 @@ Telas grandes:      1400px ou mais
     }
 
     .img-trabalho {
-        width:100%;
+        width: 100%;
         height: auto;
         margin: auto;
         object-fit: cover;
 
     }
 
-    .direita{
+    .direita {
         display: grid;
-       grid-auto-flow: column;
+        grid-auto-flow: column;
     }
 
     #ig {
-    width: 700px;
-    object-fit: cover;
-    padding: 2%;
-    height: 500px;
-    margin: auto;
-    border-radius: 4%;
-}
+        width: 700px;
+        object-fit: cover;
+        padding: 2%;
+        height: 500px;
+        margin: auto;
+        border-radius: 4%;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
