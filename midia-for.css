@@ -109,6 +109,7 @@ Telas grandes:      1400px ou mais
         margin-bottom: 80px;
         margin-top: 30px;
         flex-wrap: wrap;
+        flex-direction: row;
         transition: width .3s, height .3s;
     }
 
